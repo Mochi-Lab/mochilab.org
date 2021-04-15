@@ -1,0 +1,132 @@
+.navbar-ct {
+  padding: 2rem 0 2rem 0;
+  display: block;
+  position: relative;
+}
+
+.navbar-ct .header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+}
+.navbar-ct .header .logo {
+  display: inline-block;
+}
+.navbar-ct .header .logo img {
+  width: 10rem;
+}
+.navbar-ct .header .menu-right {
+  display: inline-block;
+}
+
+.navbar-ct .header .menu-right ul li {
+  display: inline;
+  list-style: none;
+  margin: 0 1rem;
+  font-weight: bold;
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+.navbar-ct .header .menu-right ul li:hover {
+  transition: 0.1s;
+  border-bottom: 2px solid rgba(228, 96, 158, 1);
+  color: white;
+}
+.navbar-ct .header .menu-right ul li .btn-launch-app {
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #f9e6e6;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  background: none;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  border: 1px solid #ffffff70;
+}
+.navbar-ct .header .menu-right ul li .btn-launch-app:hover {
+  border: 1px solid #7b4397;
+  background-image: linear-gradient(to right, #7b4397 0%, #dc2430 51%, #7b4397 100%);
+  box-shadow: 0 0 20px #424242;
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+.navbar-ct .header .menu-right ul li .btn-launch-app:focus {
+  outline: none;
+}
+
+.navbar-ct .header .btn-menu {
+  display: none;
+  font-size: x-large;
+}
+
+.navbar-ct .header .menu-right ul li:last-child {
+  background: none;
+  border-bottom: none;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .navbar-ct .header .menu-right {
+    transition: all 0.5s;
+    position: absolute;
+    left: -150%;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    padding: 6rem 0 0 0;
+    background: #17153a;
+  }
+
+  .navbar-ct .header .menu-right.active {
+    transition: all 0.5s;
+    position: absolute;
+    left: 0;
+  }
+
+  .navbar-ct .header .btn-menu {
+    display: block;
+  }
+
+  .navbar-ct .header .menu-right ul li {
+    display: block;
+  }
+
+  .navbar-ct .header .menu-right ul {
+    padding: 0;
+    width: 70%;
+    text-align: start;
+  }
+
+  .btn-menu {
+    position: relative;
+    z-index: 4;
+  }
+
+  .logo {
+    position: relative;
+    z-index: 4;
+  }
+  .navbar-ct .header .menu-right ul li {
+    margin-left: 0;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    transition: all 0.5s;
+  }
+
+  .navbar-ct .header .menu-right ul li:hover {
+    transition: 0.1s;
+    background: linear-gradient(100.48deg, #e4609e 7.34%, rgba(228, 96, 158, 0) 91.74%);
+    color: white;
+    border-bottom: none;
+  }
+}

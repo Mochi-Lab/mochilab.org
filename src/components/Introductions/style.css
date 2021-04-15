@@ -1,0 +1,70 @@
+.introductions {
+  margin-top: 3rem;
+  padding: 0 2rem;
+  display: block;
+}
+
+.introductions .text-introductions .slogan-intro h1 {
+  font-size: 3.2rem;
+  color: white;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  margin-bottom: 2rem;
+}
+.introductions .img-introductions img {
+  width: 100%;
+}
+.introductions .wrap-intro {
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.introductions .btn-launch-app {
+  margin-top: 2rem;
+  padding: 0.7rem 3.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #f9e6e6;
+  font-weight: bold;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #7b4397 0%, #dc2430 51%, #7b4397 100%);
+  border: none;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+.introductions .btn-launch-app:hover {
+  box-shadow: 0 0 20px #424242;
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.introductions .btn-launch-app:focus {
+  outline: none;
+}
+.introductions .description-intro {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .introductions {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .introductions .text-introductions .slogan-intro h1 {
+    font-size: 1.6rem;
+  }
+
+  .introductions .description-intro {
+    font-size: 1rem;
+  }
+
+  .introductions .btn-launch-app {
+    margin-bottom: 3rem;
+  }
+}

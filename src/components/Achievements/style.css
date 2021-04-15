@@ -1,0 +1,17 @@
+.achievement {
+  padding-bottom: 20px !important;
+  max-width: 95vw;
+  text-align: center;
+}
+
+a {
+  overflow-wrap: break-word;
+}
+
+@media only screen and (max-width: 600px) {
+  .achievement {
+    padding-bottom: 50px !important;
+    max-width: 95vw;
+    text-align: center;
+  }
+}

@@ -1,0 +1,80 @@
+.landing-page {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+}
+
+.bg-landing-page {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.oval-top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url('assets/images/Oval.png');
+}
+
+.btn-back-top {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  position: fixed;
+  right: 15px;
+  bottom: 50px;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.4s ease-out, transform 1s ease-out;
+  will-change: opacity, visibility;
+}
+
+.btn-back-top.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+.btn-back-top-content {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.45);
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.btn-back-top-content:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+  transition: all 0.3s;
+}
+
+.btn-back-top-content span {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+@media (min-width: 768px) {
+  .btn-back-top {
+    right: 50px;
+  }
+}
