@@ -25,7 +25,7 @@ export default function MochiTeam() {
       name: 'Kevin Do',
       role: 'CO-FOUNDER & CTO',
       linkedin: 'https://www.linkedin.com/in/dotrungkien',
-      twitter: 'https://twitter.com/kien_metalrock',
+      twitter: 'https://twitter.com/kevindo90',
       instagram: 'https://www.instagram.com/',
     },
     {
@@ -33,7 +33,7 @@ export default function MochiTeam() {
       name: 'Charles Tran',
       role: 'CO-FOUNDER & CPO',
       linkedin: 'https://www.linkedin.com/in/chien-tran-b52339159',
-      twitter: 'https://twitter.com/chientm2002',
+      twitter: 'https://twitter.com/',
       instagram: 'https://www.instagram.com/',
     },
     {
@@ -66,14 +66,6 @@ export default function MochiTeam() {
       role: 'CO-FOUNDER & DEV',
       linkedin: 'https://www.linkedin.com/in/l%C3%AA-th%C3%A0nh-c%C3%B4ng-b937a1164/',
       twitter: 'https://twitter.com/lwconga7',
-      instagram: 'https://www.instagram.com/',
-    },
-    {
-      image: andrew,
-      name: 'Andrew Fennell',
-      role: 'COMMUNITY MANAGER \n & BDM',
-      linkedin: 'https://twitter.com/Andrewfunbags',
-      twitter: 'https://twitter.com/Andrewfunbags',
       instagram: 'https://www.instagram.com/',
     },
   ];
