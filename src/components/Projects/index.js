@@ -1,20 +1,49 @@
-import mochimarketlogo from 'assets/images/mochimarketlogo.png';
-import wanakalogo from 'assets/images/wanakalogo.svg';
+import mochi from 'assets/images/mochimarketlogo.png';
+import wanaka from 'assets/images/wanakalogo.png';
 import './style.css';
+
+const members = [
+  {
+    image: mochi,
+    url: 'https://mochi.market',
+    name: 'Mochi Market',
+    className: 'mochi',
+  },
+  {
+    image: wanaka,
+    url: 'https://wanakafarm.com/',
+    name: 'Wanaka Farm',
+    className: 'wanaka',
+  },
+];
+
+function Project({ data }) {
+  const { image, name, url, className } = data;
+  return (
+    <a className='center' href={url} target='_blank' rel='noreferrer'>
+      <div className='project-card'>
+        <img className={className} src={image} alt={name} />
+      </div>
+    </a>
+  );
+}
 
 export default function Projects() {
   return (
-    <div className='achievements center container'>
+    <div className='projects center container'>
       <div>
-        <p className='big-title'>Projects</p>
-
-        <a href='https://mochi.market'>
-          <img className='mochimarket-logo' src={mochimarketlogo} alt='mochimarketlogo' />
-        </a>
-
-        <a href='https://wanakafarm.com/'>
-          <img className='mochimarket-logo' src={wanakalogo} alt='wanakalogo' />
-        </a>
+        <div>
+          <p className='big-title lc-color'>Projects</p>
+        </div>
+        <div>
+          <div className='image-area row'>
+            {members.map((project, index) => (
+              <div className='col-4 col-lg-3 center' key={index}>
+                <Project data={project} />
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );

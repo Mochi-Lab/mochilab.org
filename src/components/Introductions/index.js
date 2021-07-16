@@ -1,8 +1,6 @@
 import './style.css';
-import imgIntroductions from 'assets/images/img-introductions.png';
 
 export default function Introductions() {
-  const mochilabURL = 'https://mochilab.org';
   return (
     <div className='introductions'>
       <div className='container'>

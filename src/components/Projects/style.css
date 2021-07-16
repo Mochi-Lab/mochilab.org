@@ -1,4 +1,4 @@
-.mochimarket-logo {
+/* .mochimarket-logo {
   width: 200px;
   height: 110px;
   padding: 30px;
@@ -9,4 +9,90 @@
   border-color: #e4609e;
   border-radius: 12px;
   margin: 50px;
+} */
+
+.projects {
+  flex-direction: column;
+  padding: 3rem 0 8rem 0;
+}
+
+.projects > div {
+  width: 100%;
+}
+
+.image-area {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 128px;
+  margin-bottom: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  box-sizing: border-box;
+}
+
+/* .project-card > img {
+  filter: brightness(0) invert(1);
+} */
+
+.project-card:hover {
+  box-shadow: 0 10px 20px 0 rgb(146 146 146 / 21%);
+}
+
+.mochi {
+  height: 65px;
+  width: 200px;
+}
+
+.wanaka {
+  height: 70px;
+  width: 70px;
+}
+
+@media (max-width: 1200px) {
+  .project-card {
+    padding: 0;
+    width: 215px;
+    height: 128px;
+  }
+
+  .mochi {
+    height: 65px;
+    width: 200px;
+  }
+
+  .wanaka {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+@media (max-width: 992px) {
+  .project-card {
+    padding: 0;
+    width: 215px;
+    height: 128px;
+  }
+}
+
+@media (max-width: 767px) {
+  .project-card {
+    width: 104.21px;
+    height: 48.24px;
+    margin-bottom: 19px;
+  }
+
+  .mochi {
+    height: 35px;
+    width: 100px;
+  }
+  .wanaka {
+    height: 35px;
+    width: 35px;
+  }
 }

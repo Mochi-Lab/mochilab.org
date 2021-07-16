@@ -1,9 +1,5 @@
 import './style.css';
 import logo from 'assets/images/logo.png';
-import tele from 'assets/icons/icon-tele.png';
-import twitter from 'assets/icons/icon-twitter.png';
-import medium from 'assets/icons/icon-medium.png';
-import discord from 'assets/icons/icon-discord.png';
 
 export default function Footer() {
   return (

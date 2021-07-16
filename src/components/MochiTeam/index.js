@@ -7,7 +7,6 @@ import hoang from 'assets/member/hoang.png';
 import kien from 'assets/member/kien.png';
 import nghia from 'assets/member/nghia.png';
 import tan from 'assets/member/tan.png';
-import andrew from 'assets/member/andrew.jpg';
 import team from 'assets/team/mochiteam.jpg';
 
 export default function MochiTeam() {
@@ -74,7 +73,7 @@ export default function MochiTeam() {
     <div className='mochi-team center container'>
       <div>
         <p className='big-title'>The Team</p>
-        <img src={team} />
+        <img alt='team' src={team} />
       </div>
       <br />
       <div>
