@@ -1,5 +1,6 @@
 .mochimarket-logo {
   width: 200px;
+  height: 110px;
   padding: 30px;
   background: #17153a;
   background-color: #1b47e20f;
@@ -7,5 +8,5 @@
   border-width: 1px;
   border-color: #e4609e;
   border-radius: 12px;
-  margin-bottom: 100px;
+  margin: 50px;
 }
