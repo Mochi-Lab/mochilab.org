@@ -54,6 +54,11 @@
   width: 70px;
 }
 
+.mori {
+  height: 80px;
+  width: 80px;
+}
+
 @media (max-width: 1200px) {
   .project-card {
     padding: 0;
@@ -69,6 +74,11 @@
   .wanaka {
     height: 70px;
     width: 70px;
+  }
+
+  .mori {
+    height: 80px;
+    width: 80px;
   }
 }
 
@@ -94,5 +104,9 @@
   .wanaka {
     height: 35px;
     width: 35px;
+  }
+  .mori {
+    height: 40px;
+    width: 40px;
   }
 }
