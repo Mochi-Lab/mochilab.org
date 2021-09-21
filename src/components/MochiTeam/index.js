@@ -2,7 +2,6 @@ import './style.css';
 import Member from './Member';
 import chien from 'assets/member/chien.png';
 import cong from 'assets/member/cong.png';
-// import ha from 'assets/member/ha.png';
 import hoang from 'assets/member/hoang.png';
 import kien from 'assets/member/kien.png';
 import nghia from 'assets/member/nghia.png';
@@ -11,14 +10,6 @@ import team from 'assets/team/mochiteam.jpg';
 
 export default function MochiTeam() {
   const members = [
-    // {
-    //   image: ha,
-    //   name: 'Sophia Ho',
-    //   role: 'CO-FOUNDER & CEO',
-    //   linkedin: 'https://www.linkedin.com/in/sophia-ha-ho/',
-    //   twitter: 'https://twitter.com/SophiaHaHo',
-    //   instagram: 'https://www.instagram.com/',
-    // },
     {
       image: kien,
       name: 'Kevin Do',
