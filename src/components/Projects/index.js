@@ -1,6 +1,6 @@
 import mochi from 'assets/images/mochimarketlogo.png';
 import wanaka from 'assets/images/wanakalogo.png';
-import mori from 'assets/images/mori-logo.png';
+// import mori from 'assets/images/mori-logo.png';
 import './style.css';
 
 const members = [
@@ -16,12 +16,12 @@ const members = [
     name: 'Wanaka Farm',
     className: 'wanaka',
   },
-  {
-    image: mori,
-    url: 'https://mochimori.com/',
-    name: 'Mochi Mori',
-    className: 'mori',
-  },
+  // {
+  //   image: mori,
+  //   url: 'https://mochimori.com/',
+  //   name: 'Mochi Mori',
+  //   className: 'mori',
+  // },
 ];
 
 function Project({ data }) {

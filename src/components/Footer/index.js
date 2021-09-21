@@ -12,7 +12,9 @@ export default function Footer() {
           <h4>MochiLab Foundation Ltd</h4>
         </div>
         <div>
-          <p className='address'>3 Fraser Street #5-25 Duo Tower, Singapore</p>
+          <p className='address'>
+            Craigmuir Chambers, Road Town, Tortola, VG 1110, British Virgin Islands
+          </p>
         </div>
         <div>
           <a href='mailto:contact@mochilab.org'>
