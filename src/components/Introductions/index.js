@@ -23,16 +23,12 @@ export default function Introductions() {
                   Our team combines strong blockchain engineering and research with technical
                   know-how and pragmatic business acumen. Mochilab is a high achieving and
                   accomplished team that has won numerous awards and prizes from various blockchain
-                  hackathons, to name a few: Chainlink Hackathon, Defi & Cross-Border Finance, OP
-                  Game Hackathon, Blockstack — Clarity Hackathon, etc, and most recently Binance
-                  Hackathon- the future is now.
+                  hackathons.
                 </p>
 
                 <p>
-                  MochiLab is an incubator of future innovative DeFi and NFT projects. Currently
-                  under construction is the game changing multi-chain decentralized exchange NFT
-                  ecosystem, a “Super App” for NFTs. Paving the way for the future of NFTs, where
-                  there is a problem, Mochilab has the solution.
+                  MochiLab is an incubator of future innovative DeFi and NFT projects. Paving the
+                  way for the future of NFTs, where there is a problem, Mochilab has the solution.
                 </p>
               </div>
             </div>
