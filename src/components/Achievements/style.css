@@ -1,11 +1,39 @@
 .achievement {
-  padding-bottom: 20px !important;
-  max-width: 95vw;
   text-align: center;
 }
 
 a {
   overflow-wrap: break-word;
+}
+
+.card-achievement {
+  border-radius: 1rem !important;
+  background: none !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.card-achievement:hover {
+  box-shadow: 0 10px 20px 0 rgb(146 146 146 / 21%);
+}
+
+img.hackathon-card-logo {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.card-header-achievement {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.card-body-achievement {
+  height: 250px;
+  text-align: center;
+}
+
+.card-body-achievement .text-description {
+  font-weight: bold;
+  font-size: large;
 }
 
 @media only screen and (max-width: 600px) {
@@ -15,3 +43,14 @@ a {
     text-align: center;
   }
 }
+
+@media (max-width: 500px) {
+  img.hackathon-card-logo {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+  }
+  .text-description {
+    font-size: 14px;
+  }
+} 
