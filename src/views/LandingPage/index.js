@@ -45,10 +45,10 @@ export default function LandingPage() {
           <MochiTeam />
         </div>
         <div>
-          <Partners />
+          <Projects />
         </div>
         <div>
-          <Projects />
+          <Partners />
         </div>
         <div>
           <Achievements />

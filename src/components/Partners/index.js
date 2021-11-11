@@ -44,6 +44,12 @@ const members = [
     className: 'polygon',
   },
   {
+    image: moonbeam,
+    url: 'https://moonbeam.network/',
+    name: 'Moonbeam',
+    className: 'moonbeam',
+  },
+  {
     image: magnus,
     url: 'https://magnusdigitalassets.com/',
     name: 'magnus capital',
@@ -122,6 +128,12 @@ const members = [
     className: 'kryptomon',
   },
   {
+    image: wanaka,
+    url: 'https://wanakafarm.com/',
+    name: 'Wanaka',
+    className: 'wanaka',
+  },
+  {
     image: bluca,
     url: 'https://bluca.io/',
     name: 'Bluca',
@@ -157,19 +169,6 @@ const members = [
     name: 'Ecio',
     className: 'ecio',
   },
-  {
-    image: moonbeam,
-    url: 'https://moonbeam.network/',
-    name: 'Moonbeam',
-    className: 'moonbeam',
-  },
-  {
-    image: wanaka,
-    url: 'https://wanakafarm.com/',
-    name: 'Wanaka',
-    className: 'wanaka',
-  },
-
 ];
 
 function Partner({ data }) {
