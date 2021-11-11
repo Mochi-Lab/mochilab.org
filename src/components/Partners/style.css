@@ -1,0 +1,334 @@
+.partners {
+  flex-direction: column;
+  padding: 3rem 0 8rem 0;
+}
+
+.partners > div {
+  width: 100%;
+}
+
+.image-area {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partner-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 128px;
+  margin-bottom: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  border-radius: 1rem;
+}
+
+.partner-card > img {
+  filter: brightness(0) invert(1);
+}
+
+.partner-card:hover {
+  box-shadow: 0 10px 20px 0 rgb(146 146 146 / 21%);
+}
+
+.magnus {
+  height: 76px;
+  width: 144px;
+}
+
+.raptor {
+  height: 55px;
+  width: 178px;
+}
+
+.btxCapital {
+  height: 23px;
+  width: 219px;
+}
+
+.x21 {
+  height: 82px;
+  width: 101px;
+}
+
+.moonWhale {
+  height: 89px;
+  width: 129px;
+}
+
+.cinchBlock {
+  height: 35px;
+  width: 182px;
+}
+
+.existential {
+  height: 46px;
+  width: 203px;
+}
+
+.blocksync {
+  height: 55px;
+  width: 188px;
+}
+
+.blockStar {
+  height: 41px;
+  width: 152px;
+}
+
+.mercurius {
+  height: 61px;
+  width: 215px;
+}
+
+.daomaker {
+  height: 75px;
+  width: 155px;
+}
+.plasm {
+  height: 75px;
+  width: 80px;
+}
+.blackmamba {
+  height: 35px;
+  width: 200px;
+}
+.mintedlab {
+  height: 65px;
+  width: 140px;
+}
+.manticorecapital {
+  height: 70px;
+  width: 170px;
+}
+
+.halborn {
+  height: 65px;
+  width: 150px;
+}
+.polygon {
+  height: 65px;
+  width: 150px;
+}
+.wanaka {
+  height: 70px;
+  width: 70px;
+}
+.kryptomon {
+  height: 65px;
+  width: 150px;
+}
+.bluca {
+  height: 70px;
+  width: 150px;
+}
+.eightbit {
+  height: 80px;
+  width: 80px;
+  filter: brightness(1) invert(1) !important;
+}
+.noftgames {
+  height: 70px;
+  width: 120px;
+}
+.rune {
+  height: 80px;
+  width: 80px;
+  filter: brightness(1) invert(1) !important;
+}
+.cometh {
+  height: 70px;
+  width: 120px;
+}
+.moonbeam {
+  height: 70px;
+  width: 190px;
+}
+.ecio {
+  height: 70px;
+  width: 120px;
+}
+
+@media (max-width: 1200px) {
+  .partner-card {
+    padding: 0;
+    width: 215px;
+    height: 128px;
+  }
+
+  .btxCapital {
+    height: 20px;
+    width: 170px;
+  }
+
+  .existential {
+    height: 40px;
+    width: 175px;
+  }
+
+  .blocksync {
+    height: 45px;
+    width: 170px;
+  }
+
+  .mercurius {
+    height: 50px;
+    width: 175px;
+  }
+  .blackmamba {
+    height: 30px;
+    width: 170px;
+  }
+
+  .mintedlab {
+    height: 60px;
+    width: 130px;
+  }
+
+  .manticorecapital {
+    height: 65px;
+    width: 150px;
+  }
+
+  .halborn {
+    height: 65px;
+    width: 150px;
+  }
+
+  .wanaka {
+    height: 70px;
+    width: 70px;
+  }
+}
+@media (max-width: 992px) {
+  .partner-card {
+    padding: 0;
+    width: 215px;
+    height: 128px;
+  }
+}
+
+@media (max-width: 767px) {
+  .partner-card {
+    width: 104.21px;
+    height: 48.24px;
+    margin-bottom: 19px;
+  }
+
+  .magnus {
+    height: 28.8px;
+    width: 54.6px;
+  }
+
+  .raptor {
+    height: 21.8px;
+    width: 68px;
+  }
+
+  .btxCapital {
+    height: 9.52px;
+    width: 83.44px;
+  }
+
+  .x21 {
+    width: 40px;
+  }
+
+  .moonWhale {
+    height: 36.27px;
+    width: 53.6px;
+  }
+
+  .cinchBlock {
+    height: 14.4px;
+    width: 69.2px;
+  }
+
+  .existential {
+    height: 17.1px;
+    width: 78.62px;
+  }
+
+  .blocksync {
+    height: 18.75px;
+    width: 71.32px;
+  }
+
+  .blockStar {
+    height: 15.7px;
+    width: 57.5px;
+  }
+
+  .mercurius {
+    height: 22.25px;
+    width: 81.58px;
+  }
+
+  .daomaker {
+    height: 28.8px;
+    width: 61.6px;
+  }
+  .plasm {
+    height: 28.8px;
+    width: 31.6px;
+  }
+  .blackmamba {
+    height: 15.8px;
+    width: 85.6px;
+  }
+  .mintedlab {
+    height: 25.8px;
+    width: 55.6px;
+  }
+  .manticorecapital {
+    height: 30.8px;
+    width: 70.6px;
+  }
+  .halborn {
+    height: 30.8px;
+    width: 70.6px;
+  }
+  .polygon {
+    height: 30.8px;
+    width: 70.6px;
+  }
+
+  .wanaka {
+    height: 32px;
+    width: 32px;
+  }
+
+  .kryptomon {
+    height: 40px;
+    width: 65px;
+  }
+  .bluca {
+    height: 40px;
+    width: 80px;
+  }
+  .eightbit {
+    height: 35px;
+    width: 35px;
+  }
+  .noftgames {
+    height: 30px;
+    width: 60px;
+  }
+  .rune {
+    height: 35px;
+    width: 35px;
+  }
+  .cometh {
+    height: 35px;
+    width: 75px;
+  }
+  .moonbeam {
+    height: 40px;
+    width: 100px;
+  }
+  .ecio {
+    height: 35px;
+    width: 75px;
+  }
+}

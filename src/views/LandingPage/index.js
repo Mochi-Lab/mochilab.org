@@ -3,6 +3,7 @@ import Navbar from 'components/Navbar';
 import Introductions from 'components/Introductions';
 import MochiTeam from 'components/MochiTeam';
 import Achievements from 'components/Achievements';
+import Partners from 'components/Partners';
 import Projects from 'components/Projects';
 import Footer from 'components/Footer';
 import canvasDotAmination from 'utils/canvasBackground';
@@ -44,12 +45,14 @@ export default function LandingPage() {
           <MochiTeam />
         </div>
         <div>
+          <Partners />
+        </div>
+        <div>
           <Projects />
         </div>
         <div>
           <Achievements />
         </div>
-
         <Footer />
         <div
           className={`btn-back-top ${showScrollTop ? 'is-visible' : ''}`}
