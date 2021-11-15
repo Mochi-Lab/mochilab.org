@@ -23,6 +23,7 @@ import rune from 'assets/partners/rune.png';
 import cometh from 'assets/partners/cometh.svg';
 import moonbeam from 'assets/partners/moonbeam.png';
 import ecio from 'assets/partners/ecio.svg';
+import harmony from 'assets/partners/harmony.svg';
 
 const members = [
   {
@@ -48,6 +49,12 @@ const members = [
     url: 'https://moonbeam.network/',
     name: 'Moonbeam',
     className: 'moonbeam',
+  },
+  {
+    image: harmony,
+    url: 'https://www.harmony.one/',
+    name: 'Harmony',
+    className: 'harmony',
   },
   {
     image: magnus,
