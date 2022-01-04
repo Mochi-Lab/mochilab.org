@@ -1,5 +1,6 @@
 import mochi from 'assets/images/mochimarketlogo.png';
 import wanaka from 'assets/images/wanakalogo.png';
+import mochipad from 'assets/images/mochipad-logo.svg';
 import './style.css';
 
 const members = [
@@ -14,6 +15,13 @@ const members = [
     url: 'https://wanakafarm.com/',
     name: 'Wanaka Farm',
     className: 'wanaka',
+  },
+
+  {
+    image: mochipad,
+    url: 'https://mochipad.io/',
+    name: 'MochiPad',
+    className: 'mochi',
   },
 ];
 
