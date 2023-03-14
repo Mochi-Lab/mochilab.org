@@ -46,13 +46,7 @@
 }
 
 .mochi {
-  height: 65px;
   width: 200px;
-}
-
-.wanaka {
-  height: 70px;
-  width: 70px;
 }
 
 @media (max-width: 1200px) {
@@ -65,11 +59,6 @@
   .mochi {
     height: 65px;
     width: 200px;
-  }
-
-  .wanaka {
-    height: 70px;
-    width: 70px;
   }
 }
 
@@ -91,9 +80,5 @@
   .mochi {
     height: 35px;
     width: 100px;
-  }
-  .wanaka {
-    height: 35px;
-    width: 35px;
   }
 }

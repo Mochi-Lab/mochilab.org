@@ -111,10 +111,6 @@
   height: 65px;
   width: 150px;
 }
-.wanaka {
-  height: 70px;
-  width: 70px;
-}
 .kryptomon {
   height: 65px;
   width: 150px;
@@ -196,10 +192,6 @@
     width: 150px;
   }
 
-  .wanaka {
-    height: 70px;
-    width: 70px;
-  }
 }
 @media (max-width: 992px) {
   .partner-card {
@@ -294,10 +286,6 @@
     width: 70.6px;
   }
 
-  .wanaka {
-    height: 32px;
-    width: 32px;
-  }
 
   .kryptomon {
     height: 40px;

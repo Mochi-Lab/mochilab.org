@@ -14,7 +14,6 @@ import mintedlab from 'assets/partners/mintedlab.png';
 import manticorecapital from 'assets/partners/manticorecapital.png';
 import halborn from 'assets/partners/halborn-black.svg';
 import polygon from 'assets/partners/polygon-logowhite.svg';
-import wanaka from 'assets/partners/wanaka.png';
 import kryptomon from 'assets/partners/kryptomon.png';
 import bluca from 'assets/partners/bluca.svg';
 import eightbit from 'assets/partners/eightbit.png';
@@ -133,12 +132,6 @@ const members = [
     url: 'https://kryptomon.co/',
     name: 'Kryptomon',
     className: 'kryptomon',
-  },
-  {
-    image: wanaka,
-    url: 'https://wanakafarm.com/',
-    name: 'Wanaka',
-    className: 'wanaka',
   },
   {
     image: bluca,
