@@ -26,7 +26,7 @@ export default function canvasBackground(document) {
   }
 
   function drawStars() {
-    stars.map((star) => {
+    stars.forEach((star) => {
       ctx.beginPath();
       ctx.fillStyle = 'rgba(255, 255, 255, 0.25)';
       ctx.arc(star.x, star.y, star.radius, 0, 2 * Math.PI);
@@ -37,12 +37,12 @@ export default function canvasBackground(document) {
   }
 
   function drawLines() {
-    stars.map((starI) => {
+    stars.forEach((starI) => {
       ctx.moveTo(starI.x, starI.y);
       // distance can connect from mouse to dots
       // if (distance(mouse, starI) < 250) ctx.lineTo(mouse.x, mouse.y);
 
-      stars.map((starII) => {
+      stars.forEach((starII) => {
         // distance can connect between the dots
         if (distance(starI, starII) < 60) ctx.lineTo(starII.x, starII.y);
       });
@@ -69,7 +69,7 @@ export default function canvasBackground(document) {
 
   // Update star locations
   function update() {
-    stars.map((star) => {
+    stars.forEach((star) => {
       // star.x += star.vx / FPS;
       // star.y += star.vy / FPS;
       star.x += star.vx / star.speed;
